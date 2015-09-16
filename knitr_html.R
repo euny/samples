@@ -1,4 +1,10 @@
+#+ global setting, results="hide", include=F
+library(knitr)
+knitr::opts_chunk$set(cache=F)
+
+
 #' ---
+#' title: 'html 만들기'
 #' css: custom.css
 #' ---
 
@@ -9,10 +15,7 @@
 #' 설명이구요 
 #' 
 #' ### 세번쨰 제목 
-#' 설명이 나오고 
-#' 
-#' #### 네번째 제목 
-#' 그렇습니다.   
+#' 설명이 나오고   
 #' 두번째 줄입니다. 
 #' 
 #' 
